@@ -2,6 +2,7 @@
 source:       .
 destination:  ./_site
 layouts_dir:  _layouts
+
 # Handling Reading
 exclude:              [
   "*/README.md",

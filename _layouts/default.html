@@ -36,6 +36,7 @@ layout: compress
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li {% if page.url == "/program/" %}class="active"{% endif %}><a href="{{ '/program' | relative_url }}">Program</a></li>
             <li {% if page.url == "/call/" %}class="active"{% endif %}><a href="{{ '/call/' | relative_url }}">Call For Papers</a></li>
             <li {% if page.url == "/submission/" %}class="active"{% endif %}><a href="{{ '/submission/' | relative_url }}">Submission Information</a></li>
             <li {% if page.url == "/registration/" %}class="active"{% endif %}><a href="{{ '/registration/' | relative_url }}">Registration</a></li>

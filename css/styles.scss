@@ -41,6 +41,22 @@ table tr td:last-child {
     color: #555;
 }
 
+
+table.program {
+    border-collapse: collapse;
+}
+
+table.program tr td {
+    vertical-align: top;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+table.program tr td ul li {
+    padding-top: .125em;
+    padding-bottom: .125em;
+}
+
 .page-content section:first-child:not(.no-top-padding) {
     padding-top: 48px;
 }
